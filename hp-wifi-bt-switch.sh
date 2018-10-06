@@ -1,4 +1,5 @@
 #! /usr/bin/env bash
+# HyperPie 2018
 if grep -q 'dtoverlay=pi3-disable-wifi' /boot/config.txt; then
     echo
     echo "Option to enable/disable Wifi found in config, Continuing....."
